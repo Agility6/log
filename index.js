@@ -1,3 +1,4 @@
-import Add from './src/index.js'
-
-Add(1,2)
+import { 
+  agLogBug,
+  agLogTest
+} from './src/index.js'
