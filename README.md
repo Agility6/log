@@ -1,5 +1,4 @@
-## Log
-
+# Log
 
 💁🏻 When learning JavaScript, I think it's not convenient to use the console .log
 
