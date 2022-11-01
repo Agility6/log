@@ -1,5 +1,5 @@
 <h2 align='center'>Log</h2>
-  
+
 <h5 align='center'>💁🏻 When learning JavaScript, I think it's not convenient to use the console .log</h5>
 
 ## Features
