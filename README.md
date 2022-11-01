@@ -1,7 +1,5 @@
-<h2 align='center'>
-  Log
-</h2>
-<p align='center'>💁🏻 When learning JavaScript, I think it's not convenient to use the console .log</p>
+# Log
+<p>💁🏻 When learning JavaScript, I think it's not convenient to use the console .log</p>
 
 ## Features
 
