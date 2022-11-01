@@ -1,4 +1,3 @@
 import { 
-  agLogBug,
-  agLogTest
+ agLog
 } from './src/index.js'

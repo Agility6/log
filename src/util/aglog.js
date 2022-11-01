@@ -8,11 +8,9 @@ function  _agLog(_nowDate) {
   _HOURS =  _HOURS < 10 ? '0'+_HOURS : _HOURS
   _SECONDS = _SECONDS < 10 ? '0'+_SECONDS : _SECONDS
   const _DATE = `${_HOURS}:${_MINUTES}:${_SECONDS}`
-  return function(_TYPE) {
     return function(_MESSAGE) {
-      console.log(`%cTime: %c${_DATE} %cType: %c${_TYPE} %cMessage: %c${_MESSAGE}`, color._timeColor(), color._TimeDateColor(), color._TypeColor() ,color._TypeDateColor(), color._timeColor(),color. _TimeDateColor())
-     
-    }
+      const _messageType =  _MESSAGE === null ? null : typeof _MESSAGE
+      console.log(`%cTime: %c${_DATE} %cType: %c${_messageType} %cMessage:%c${_MESSAGE}`, color._timeColor(), color._TimeDateColor(), color._TypeColor() ,color._TypeDateColor(), color._timeColor(),color._TimeDateColor())
   }
 }
 
