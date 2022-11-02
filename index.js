@@ -1,3 +1,1 @@
-import { 
- agLog
-} from './src/index.js'
+import { agLog } from './src/aglog.js'

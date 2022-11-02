@@ -1,5 +1,5 @@
-import * as color from './colorStyle.js'
-import optType from './type.js'
+import * as color from './util/colorStyle.js'
+import optType from './util/type.js'
 
 function  _agLog(_nowDate) {
   let _HOURS = _nowDate.getHours()
