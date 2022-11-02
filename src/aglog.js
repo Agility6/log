@@ -11,7 +11,7 @@ function  _agLog(_nowDate) {
   const _DATE = `${_HOURS}:${_MINUTES}:${_SECONDS}`
     return function(..._MESSAGE) {
       const _messageType =  optType(..._MESSAGE)
-      console.log(`%cTime: %c${_DATE} %cType:%c${_messageType} %cMessage:`, color._timeColor(), color._TimeDateColor(), color._TypeColor() ,color._TypeDateColor(), color._MessageColor(),..._MESSAGE)
+      console.log(`%cTime: %c${_DATE} %cType:%c${_messageType} %cMessage:`, color.timeColor(), color.TimeDateColor(), color.TypeColor() ,color.TypeDateColor(), color.MessageColor(),..._MESSAGE)
   }
 }
 
