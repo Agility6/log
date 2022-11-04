@@ -1,18 +1,18 @@
 {
-  "name": "pak-name",
+  "name": "log-interest",
   "type": "module",
-  "version": "0.0.0",
-  "description": "",
-  "author": "Agility6 <309645035@qq.com>",
+  "version": "1.0.0",
+  "description": "This is an interesting log",
+  "author": "Agility6 <agility6@163.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Agility6/pak-name#readme",
+  "homepage": "https://github.com/Agility6/log",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Agility6/pak-name.git"
+    "url": "git+https://github.com/Agility6/log.git"
   },
   "bugs": {
-    "url": "https://github.com/Agility6/pak-name/issues"
+    "url": "https://github.com/Agility6/log/issues"
   },
-  "keywords": []
+  "keywords": ["javascript","log","console.log"]
 }
