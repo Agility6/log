@@ -1,7 +1,7 @@
 {
   "name": "log-interest",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is an interesting log",
   "author": "Agility6 <agility6@163.com>",
   "license": "MIT",

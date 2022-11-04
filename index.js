@@ -1,2 +1,2 @@
-import { agLog } from './src/aglog.js'
-import { agline } from './src/agline.js'
+export { agLog } from './src/aglog.js'
+export { agline } from './src/agline.js'
