@@ -2,6 +2,21 @@
 
 <p>💁🏻 When learning JavaScript, I think it's not convenient to use the console .log</p>
 
+## Install
+
+> npm i log-interest
+
+```js
+  // use in browser alone 
+  // import { agLog, agline } from '/node_modules/log-interest/index.js'
+  
+  // webpack build
+  import { agLog, agline } from 'log-interest'
+
+  agLog('Hello Log')
+  agline()(10)
+```
+
 ## Features
 
 - 💭agLog: Displays the current time, automatically displays the type
