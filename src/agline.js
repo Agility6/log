@@ -1,6 +1,6 @@
 import { LineColor } from "./util/colorStyle.js";
 
-export function agline(_lineColor = LineColor()) {
+export function agLine(_lineColor = LineColor()) {
   const _LINECOLOR = `color: ${_lineColor}`
   return function(lineNumber) {
     if(typeof lineNumber === 'number') {
