@@ -8,13 +8,13 @@
 
 ```js
   // use in browser alone 
-  // import { agLog, agline } from '/node_modules/log-interest/index.js'
+  // import { agLog, agLine } from '/node_modules/log-interest/index.js'
   
   // webpack build
-  import { agLog, agline } from 'log-interest'
+  import { agLog, agLine } from 'log-interest'
 
   agLog('Hello Log')
-  agline()(10)
+  agLine()(10)
 ```
 
 ## Features
@@ -41,14 +41,14 @@
   ```js
 
     // colorDefault:#13678A
-    agline()(10)
-    agline('#7AB3BF')(10)
-    agline('#308C58')(10)
-    agline('#F2BE5C')(10)
-    agline('#D98E32')(10)
-    agline('#731702')(10)
+    agLine()(10)
+    agLine('#7AB3BF')(10)
+    agLine('#308C58')(10)
+    agLine('#F2BE5C')(10)
+    agLine('#D98E32')(10)
+    agLine('#731702')(10)
 
-    const youColorLine = agline('#FF5A33')
+    const youColorLine = agLine('#FF5A33')
     youColorLine(10)
 
   ```
